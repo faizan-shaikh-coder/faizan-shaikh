@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+    <div class="box">
+    <h1 class="heading">COUNTDOWN TIMER</h1>
+    <img src="watcimg/sand-clock_14639150.gif">
+    <h2>
+        STOPWATCH
+    </h2>
+     <div class="timer-box">
+        <div class="label" style="display: flex;">
+            <p style="color: green;">Hrs</p>
+            <p style="color: red;">Min</p>
+            <p style="color: blue;">Sec</p>
+        </div>
+        <h1 id="display" class="timer">00:00:00</h1>
+     </div>
+       <div class="button-box">
+              <button onclick="startTime()" class="start-btn">START</button>
+              <button onclick="stop()"  class="stop-btn">STOP</button>
+              <button onclick="resetTime()" class="reset-btn">RESET</button>
+            </div>
+            <footer>
+                <p>@ 2024 CountDown Timer All Rights Reserved|</p>
+            </footer>
+    </div>
+   
+</div>
+<script src="watch.js"></script>
+</body>
+</html>

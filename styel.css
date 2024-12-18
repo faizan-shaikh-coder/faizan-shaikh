@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 2px 2px 5px black ,  inset -2px -2px 5px black;
+
+}
+
+.box
+{
+    width:75%;
+    height:500px;
+    padding: 20px;
+    background-image: url('watcimg/DALL·E\ 2024-12-08\ 00.52.07\ -\ A\ realistic\ image\ of\ a\ desert\ runway\ road\,\ surrounded\ by\ a\ barren\ desert\ landscape\ under\ a\ clear\ blue\ sky\ with\ minimal\ clouds.\ The\ road\ appears\ long\ a.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 2px 2px 5px white ,  inset -2px -2px 5px white;
+
+}
+
+img
+{
+    mix-blend-mode:color-burn;
+    width:50px;
+    margin-left: 44%;
+}
+
+.heading
+{
+    margin-left:18%;
+    font-size:50px;
+    text-shadow: 3px 3px 5px white;
+}
+
+h2
+{
+    margin-left:32%;
+   
+    font-size:40px;
+    text-shadow: 3px 3px 5px white; 
+}
+
+.timer-box
+{
+    width: 50%;
+    height: fit-content;
+    margin: 20px 22%;
+    padding: 20px;
+    
+    
+   
+}
+
+.label
+{
+    width: fit-content;
+    height: fit-content;
+    margin-left:25%;
+    gap: 50px;
+}
+
+.timer
+{
+    margin-left:23%;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.label p
+{
+  font-size:20px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 5px white;
+}
+
+.button-box
+{
+  width:fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px whitesmoke ,  inset -2px -2px 5px whitesmoke;
+  box-sizing: border-box;
+  background-color:black;
+  opacity: 0.8;
+  margin-top: 20px;
+  padding: 25px;
+  margin-left:32%;
+  
+ 
+}
+
+.start-btn , .stop-btn , .reset-btn
+{
+  padding: 5px;
+  font-size:22px;
+  font-weight: bolder;
+  font-style: calc();
+  background: none;
+  color:white;
+  border: none;
+  outline: none;
+  transition:0.0s ease-in-out;
+  
+
+}
+
+.start-btn:hover
+{
+    padding:6px;
+    font-size: 23px;
+    border-radius: 10px;
+    background-color: white;
+    color: green;
+    transition: 0.0s ease-in-out;
+    cursor: pointer;
+}
+
+.stop-btn:hover
+{
+    padding:6px;
+    font-size: 23px;
+    border-radius: 10px;
+    background-color: white;
+    color:red;
+    transition: 0.0s ease-in-out;
+    cursor: pointer;
+}
+
+.reset-btn:hover
+{
+    padding:6px;
+    font-size: 23px;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+    transition: 0.0s ease-in-out;
+    cursor: pointer;
+}
+
+footer
+{
+    width: 100%;
+    height:13vh;
+    display: flex;
+    justify-content: center;
+    background-color: navy;
+    align-items: center;
+    font-size: 25px;
+    background: transparent;
+    font-weight: bolder;
+    color:white;
+    text-shadow: 3px 3px 5px black;
+
+}
